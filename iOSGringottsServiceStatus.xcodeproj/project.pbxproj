@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12698B1D2B8931D30087B9C0 /* ServiceEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B1C2B8931D30087B9C0 /* ServiceEnum.swift */; };
+		12698B1F2B8932200087B9C0 /* ServiceStatusConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B1E2B8932200087B9C0 /* ServiceStatusConstants.swift */; };
+		12698B212B8934C80087B9C0 /* ServiceStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B202B8934C80087B9C0 /* ServiceStatus.swift */; };
+		12698B232B8934F80087B9C0 /* ServiceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B222B8934F80087B9C0 /* ServiceRepository.swift */; };
+		12698B252B8935430087B9C0 /* GringottsServiceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B242B8935430087B9C0 /* GringottsServiceRepository.swift */; };
+		12698B272B89365D0087B9C0 /* URLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B262B89365D0087B9C0 /* URLSessionManager.swift */; };
+		12698B292B89366C0087B9C0 /* NetworkSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B282B89366C0087B9C0 /* NetworkSessionManager.swift */; };
+		12698B2B2B8938E90087B9C0 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B2A2B8938E90087B9C0 /* NetworkError.swift */; };
+		12698B2F2B8943FB0087B9C0 /* ServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B2E2B8943FB0087B9C0 /* ServiceViewModel.swift */; };
+		12698B322B8944450087B9C0 /* ServiceViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B312B8944450087B9C0 /* ServiceViewModelProtocol.swift */; };
+		12698B352B8945B80087B9C0 /* ServiceStatusFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B342B8945B80087B9C0 /* ServiceStatusFactory.swift */; };
+		83C117452B894E0E00F60807 /* ServiceStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C117442B894E0E00F60807 /* ServiceStatusViewController.swift */; };
 		83F446F12B891A53008E0354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F446F02B891A53008E0354 /* AppDelegate.swift */; };
 		83F446F32B891A53008E0354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F446F22B891A53008E0354 /* SceneDelegate.swift */; };
 		83F446F52B891A53008E0354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F446F42B891A53008E0354 /* ViewController.swift */; };
@@ -14,9 +26,24 @@
 		83F446FD2B891A54008E0354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F446FB2B891A54008E0354 /* LaunchScreen.storyboard */; };
 		83F447062B89214C008E0354 /* ServicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F447052B89214C008E0354 /* ServicesListView.swift */; };
 		83F4470A2B8927DC008E0354 /* ServiceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F447092B8927DC008E0354 /* ServiceViewCell.swift */; };
+		B1A95476604F2AA9BB4AED31 /* Pods_iOSGringottsServiceStatus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AADBF678728D37DB6BE0EE0 /* Pods_iOSGringottsServiceStatus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12698B1C2B8931D30087B9C0 /* ServiceEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceEnum.swift; sourceTree = "<group>"; };
+		12698B1E2B8932200087B9C0 /* ServiceStatusConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatusConstants.swift; sourceTree = "<group>"; };
+		12698B202B8934C80087B9C0 /* ServiceStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatus.swift; sourceTree = "<group>"; };
+		12698B222B8934F80087B9C0 /* ServiceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRepository.swift; sourceTree = "<group>"; };
+		12698B242B8935430087B9C0 /* GringottsServiceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GringottsServiceRepository.swift; sourceTree = "<group>"; };
+		12698B262B89365D0087B9C0 /* URLSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionManager.swift; sourceTree = "<group>"; };
+		12698B282B89366C0087B9C0 /* NetworkSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionManager.swift; sourceTree = "<group>"; };
+		12698B2A2B8938E90087B9C0 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		12698B2E2B8943FB0087B9C0 /* ServiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewModel.swift; sourceTree = "<group>"; };
+		12698B312B8944450087B9C0 /* ServiceViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewModelProtocol.swift; sourceTree = "<group>"; };
+		12698B342B8945B80087B9C0 /* ServiceStatusFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatusFactory.swift; sourceTree = "<group>"; };
+		204EA6431782640CE89F0E17 /* Pods-iOSGringottsServiceStatus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSGringottsServiceStatus.release.xcconfig"; path = "Target Support Files/Pods-iOSGringottsServiceStatus/Pods-iOSGringottsServiceStatus.release.xcconfig"; sourceTree = "<group>"; };
+		6C1F0BBAB21640C60EE90159 /* Pods-iOSGringottsServiceStatus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSGringottsServiceStatus.debug.xcconfig"; path = "Target Support Files/Pods-iOSGringottsServiceStatus/Pods-iOSGringottsServiceStatus.debug.xcconfig"; sourceTree = "<group>"; };
+		83C117442B894E0E00F60807 /* ServiceStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatusViewController.swift; sourceTree = "<group>"; };
 		83F446ED2B891A53008E0354 /* iOSGringottsServiceStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGringottsServiceStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F446F02B891A53008E0354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83F446F22B891A53008E0354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +53,7 @@
 		83F446FE2B891A54008E0354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83F447052B89214C008E0354 /* ServicesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ServicesListView.swift; path = ../../../ServicesListView.swift; sourceTree = "<group>"; };
 		83F447092B8927DC008E0354 /* ServiceViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewCell.swift; sourceTree = "<group>"; };
+		9AADBF678728D37DB6BE0EE0 /* Pods_iOSGringottsServiceStatus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSGringottsServiceStatus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +61,95 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A95476604F2AA9BB4AED31 /* Pods_iOSGringottsServiceStatus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12698B1A2B89319F0087B9C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12698B332B8945940087B9C0 /* Factory */,
+				12698B302B89442B0087B9C0 /* Domain */,
+				12698B2C2B893FF30087B9C0 /* Resources */,
+				12698B2D2B893FFE0087B9C0 /* Presentation */,
+				12698B1B2B8931B60087B9C0 /* Repositories */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12698B1B2B8931B60087B9C0 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				12698B1C2B8931D30087B9C0 /* ServiceEnum.swift */,
+				12698B202B8934C80087B9C0 /* ServiceStatus.swift */,
+				12698B222B8934F80087B9C0 /* ServiceRepository.swift */,
+				12698B242B8935430087B9C0 /* GringottsServiceRepository.swift */,
+				12698B282B89366C0087B9C0 /* NetworkSessionManager.swift */,
+				12698B262B89365D0087B9C0 /* URLSessionManager.swift */,
+				12698B2A2B8938E90087B9C0 /* NetworkError.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		12698B2C2B893FF30087B9C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12698B1E2B8932200087B9C0 /* ServiceStatusConstants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		12698B2D2B893FFE0087B9C0 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				12698B2E2B8943FB0087B9C0 /* ServiceViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		12698B302B89442B0087B9C0 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				12698B312B8944450087B9C0 /* ServiceViewModelProtocol.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		12698B332B8945940087B9C0 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				12698B342B8945B80087B9C0 /* ServiceStatusFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		6ABEC4C8E6E4A73866550907 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C1F0BBAB21640C60EE90159 /* Pods-iOSGringottsServiceStatus.debug.xcconfig */,
+				204EA6431782640CE89F0E17 /* Pods-iOSGringottsServiceStatus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		79B4AD6F3A01F92A842CA174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AADBF678728D37DB6BE0EE0 /* Pods_iOSGringottsServiceStatus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		83F446E42B891A53008E0354 = {
 			isa = PBXGroup;
 			children = (
 				83F446EF2B891A53008E0354 /* iOSGringottsServiceStatus */,
 				83F446EE2B891A53008E0354 /* Products */,
+				6ABEC4C8E6E4A73866550907 /* Pods */,
+				79B4AD6F3A01F92A842CA174 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +164,7 @@
 		83F446EF2B891A53008E0354 /* iOSGringottsServiceStatus */ = {
 			isa = PBXGroup;
 			children = (
+				12698B1A2B89319F0087B9C0 /* Models */,
 				83F446F02B891A53008E0354 /* AppDelegate.swift */,
 				83F446F22B891A53008E0354 /* SceneDelegate.swift */,
 				83F446F42B891A53008E0354 /* ViewController.swift */,
@@ -74,6 +181,7 @@
 			children = (
 				83F447052B89214C008E0354 /* ServicesListView.swift */,
 				83F447092B8927DC008E0354 /* ServiceViewCell.swift */,
+				83C117442B894E0E00F60807 /* ServiceStatusViewController.swift */,
 			);
 			path = ServicesList;
 			sourceTree = "<group>";
@@ -85,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83F447012B891A54008E0354 /* Build configuration list for PBXNativeTarget "iOSGringottsServiceStatus" */;
 			buildPhases = (
+				82A88716597EA1B56022BBCC /* [CP] Check Pods Manifest.lock */,
 				83F446E92B891A53008E0354 /* Sources */,
 				83F446EA2B891A53008E0354 /* Frameworks */,
 				83F446EB2B891A53008E0354 /* Resources */,
+				FE33F1C4A4ECDDF63CBFDDD9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,14 +253,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82A88716597EA1B56022BBCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSGringottsServiceStatus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE33F1C4A4ECDDF63CBFDDD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSGringottsServiceStatus/Pods-iOSGringottsServiceStatus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSGringottsServiceStatus/Pods-iOSGringottsServiceStatus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSGringottsServiceStatus/Pods-iOSGringottsServiceStatus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83F446E92B891A53008E0354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				83F447062B89214C008E0354 /* ServicesListView.swift in Sources */,
+				12698B272B89365D0087B9C0 /* URLSessionManager.swift in Sources */,
+				12698B232B8934F80087B9C0 /* ServiceRepository.swift in Sources */,
+				12698B1F2B8932200087B9C0 /* ServiceStatusConstants.swift in Sources */,
+				12698B212B8934C80087B9C0 /* ServiceStatus.swift in Sources */,
+				12698B322B8944450087B9C0 /* ServiceViewModelProtocol.swift in Sources */,
 				83F446F52B891A53008E0354 /* ViewController.swift in Sources */,
 				83F446F12B891A53008E0354 /* AppDelegate.swift in Sources */,
+				12698B1D2B8931D30087B9C0 /* ServiceEnum.swift in Sources */,
+				12698B292B89366C0087B9C0 /* NetworkSessionManager.swift in Sources */,
+				12698B252B8935430087B9C0 /* GringottsServiceRepository.swift in Sources */,
+				12698B2B2B8938E90087B9C0 /* NetworkError.swift in Sources */,
+				12698B2F2B8943FB0087B9C0 /* ServiceViewModel.swift in Sources */,
+				83C117452B894E0E00F60807 /* ServiceStatusViewController.swift in Sources */,
+				12698B352B8945B80087B9C0 /* ServiceStatusFactory.swift in Sources */,
 				83F446F32B891A53008E0354 /* SceneDelegate.swift in Sources */,
 				83F4470A2B8927DC008E0354 /* ServiceViewCell.swift in Sources */,
 			);
@@ -291,11 +455,13 @@
 		};
 		83F447022B891A54008E0354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1F0BBAB21640C60EE90159 /* Pods-iOSGringottsServiceStatus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOSGringottsServiceStatus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -318,11 +484,13 @@
 		};
 		83F447032B891A54008E0354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204EA6431782640CE89F0E17 /* Pods-iOSGringottsServiceStatus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOSGringottsServiceStatus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
