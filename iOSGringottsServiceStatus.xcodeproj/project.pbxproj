@@ -21,7 +21,6 @@
 		83C117452B894E0E00F60807 /* ServiceStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C117442B894E0E00F60807 /* ServiceStatusViewController.swift */; };
 		83F446F12B891A53008E0354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F446F02B891A53008E0354 /* AppDelegate.swift */; };
 		83F446F32B891A53008E0354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F446F22B891A53008E0354 /* SceneDelegate.swift */; };
-		83F446F52B891A53008E0354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F446F42B891A53008E0354 /* ViewController.swift */; };
 		83F446FA2B891A54008E0354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F446F92B891A54008E0354 /* Assets.xcassets */; };
 		83F446FD2B891A54008E0354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F446FB2B891A54008E0354 /* LaunchScreen.storyboard */; };
 		83F447062B89214C008E0354 /* ServicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F447052B89214C008E0354 /* ServicesListView.swift */; };
@@ -47,7 +46,6 @@
 		83F446ED2B891A53008E0354 /* iOSGringottsServiceStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGringottsServiceStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F446F02B891A53008E0354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83F446F22B891A53008E0354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83F446F42B891A53008E0354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83F446F92B891A54008E0354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F446FC2B891A54008E0354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83F446FE2B891A54008E0354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -167,7 +165,6 @@
 				12698B1A2B89319F0087B9C0 /* Models */,
 				83F446F02B891A53008E0354 /* AppDelegate.swift */,
 				83F446F22B891A53008E0354 /* SceneDelegate.swift */,
-				83F446F42B891A53008E0354 /* ViewController.swift */,
 				83F447042B891CCA008E0354 /* ServicesList */,
 				83F446F92B891A54008E0354 /* Assets.xcassets */,
 				83F446FB2B891A54008E0354 /* LaunchScreen.storyboard */,
@@ -306,7 +303,6 @@
 				12698B1F2B8932200087B9C0 /* ServiceStatusConstants.swift in Sources */,
 				12698B212B8934C80087B9C0 /* ServiceStatus.swift in Sources */,
 				12698B322B8944450087B9C0 /* ServiceViewModelProtocol.swift in Sources */,
-				83F446F52B891A53008E0354 /* ViewController.swift in Sources */,
 				83F446F12B891A53008E0354 /* AppDelegate.swift in Sources */,
 				12698B1D2B8931D30087B9C0 /* ServiceEnum.swift in Sources */,
 				12698B292B89366C0087B9C0 /* NetworkSessionManager.swift in Sources */,

@@ -81,16 +81,16 @@ final class ServiceViewCell: UITableViewCell {
         ])
     }
     
-    func configCell(service: Service) {
+    func configCell(service: ServiceStatus) {
         nameLabel.text = service.route
-        iconStatus.image = UIImage(named: service.status.rawValue.lowercased())
-        statusLabel.text = "\(service.httpCode) - \(service.status.rawValue)"
         
-        switch service.status {
-        case .active:
+        switch service.httpCode {
+        case 100...200:
             statusLabel.textColor = .systemGreen
-        case .inactive:
+            statusLabel.text = "\(service.httpCode) - Activo"
+        default:
             statusLabel.textColor = .systemRed
+            statusLabel.text = "\(service.httpCode) - Inactivo"
         }
     }
 }

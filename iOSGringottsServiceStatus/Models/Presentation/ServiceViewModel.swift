@@ -14,10 +14,6 @@ final class ServiceViewModel: ServiceViewModelProtocol{
     self.sessionManager = sessionManager
   }
   
-  func fetchServiceStatus(service: ServiceEnum) -> Observable<ServiceStatus> {
-    return sessionManager.request(service: service)
-  }
-  
   func fetchAllServiceStatus() -> Observable<ServiceStatus> {
     let services: [ServiceEnum] = [.Characters, .CharactersByID, .Students, .Staff, .Spells, .CharactersInHouse]
     
