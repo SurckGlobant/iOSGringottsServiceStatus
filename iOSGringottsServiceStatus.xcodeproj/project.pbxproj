@@ -19,11 +19,11 @@
 		12698B322B8944450087B9C0 /* ServiceViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B312B8944450087B9C0 /* ServiceViewModelProtocol.swift */; };
 		12698B352B8945B80087B9C0 /* ServiceStatusFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B342B8945B80087B9C0 /* ServiceStatusFactory.swift */; };
 		83C117452B894E0E00F60807 /* ServiceStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C117442B894E0E00F60807 /* ServiceStatusViewController.swift */; };
+		83C117472B895B1800F60807 /* ServicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C117462B895B1800F60807 /* ServicesListView.swift */; };
 		83F446F12B891A53008E0354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F446F02B891A53008E0354 /* AppDelegate.swift */; };
 		83F446F32B891A53008E0354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F446F22B891A53008E0354 /* SceneDelegate.swift */; };
 		83F446FA2B891A54008E0354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F446F92B891A54008E0354 /* Assets.xcassets */; };
 		83F446FD2B891A54008E0354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F446FB2B891A54008E0354 /* LaunchScreen.storyboard */; };
-		83F447062B89214C008E0354 /* ServicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F447052B89214C008E0354 /* ServicesListView.swift */; };
 		83F4470A2B8927DC008E0354 /* ServiceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F447092B8927DC008E0354 /* ServiceViewCell.swift */; };
 		B1A95476604F2AA9BB4AED31 /* Pods_iOSGringottsServiceStatus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AADBF678728D37DB6BE0EE0 /* Pods_iOSGringottsServiceStatus.framework */; };
 /* End PBXBuildFile section */
@@ -43,13 +43,13 @@
 		204EA6431782640CE89F0E17 /* Pods-iOSGringottsServiceStatus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSGringottsServiceStatus.release.xcconfig"; path = "Target Support Files/Pods-iOSGringottsServiceStatus/Pods-iOSGringottsServiceStatus.release.xcconfig"; sourceTree = "<group>"; };
 		6C1F0BBAB21640C60EE90159 /* Pods-iOSGringottsServiceStatus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSGringottsServiceStatus.debug.xcconfig"; path = "Target Support Files/Pods-iOSGringottsServiceStatus/Pods-iOSGringottsServiceStatus.debug.xcconfig"; sourceTree = "<group>"; };
 		83C117442B894E0E00F60807 /* ServiceStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatusViewController.swift; sourceTree = "<group>"; };
+		83C117462B895B1800F60807 /* ServicesListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesListView.swift; sourceTree = "<group>"; };
 		83F446ED2B891A53008E0354 /* iOSGringottsServiceStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGringottsServiceStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F446F02B891A53008E0354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83F446F22B891A53008E0354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		83F446F92B891A54008E0354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F446FC2B891A54008E0354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83F446FE2B891A54008E0354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83F447052B89214C008E0354 /* ServicesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ServicesListView.swift; path = ../../../ServicesListView.swift; sourceTree = "<group>"; };
 		83F447092B8927DC008E0354 /* ServiceViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewCell.swift; sourceTree = "<group>"; };
 		9AADBF678728D37DB6BE0EE0 /* Pods_iOSGringottsServiceStatus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSGringottsServiceStatus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -176,7 +176,7 @@
 		83F447042B891CCA008E0354 /* ServicesList */ = {
 			isa = PBXGroup;
 			children = (
-				83F447052B89214C008E0354 /* ServicesListView.swift */,
+				83C117462B895B1800F60807 /* ServicesListView.swift */,
 				83F447092B8927DC008E0354 /* ServiceViewCell.swift */,
 				83C117442B894E0E00F60807 /* ServiceStatusViewController.swift */,
 			);
@@ -297,11 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F447062B89214C008E0354 /* ServicesListView.swift in Sources */,
 				12698B272B89365D0087B9C0 /* URLSessionManager.swift in Sources */,
 				12698B232B8934F80087B9C0 /* ServiceRepository.swift in Sources */,
 				12698B1F2B8932200087B9C0 /* ServiceStatusConstants.swift in Sources */,
 				12698B212B8934C80087B9C0 /* ServiceStatus.swift in Sources */,
+				83C117472B895B1800F60807 /* ServicesListView.swift in Sources */,
 				12698B322B8944450087B9C0 /* ServiceViewModelProtocol.swift in Sources */,
 				83F446F12B891A53008E0354 /* AppDelegate.swift in Sources */,
 				12698B1D2B8931D30087B9C0 /* ServiceEnum.swift in Sources */,
