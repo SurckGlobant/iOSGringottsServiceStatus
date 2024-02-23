@@ -104,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				12698B2E2B8943FB0087B9C0 /* ServiceViewModel.swift */,
+				83F447042B891CCA008E0354 /* ServicesList */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -165,7 +166,6 @@
 				12698B1A2B89319F0087B9C0 /* Models */,
 				83F446F02B891A53008E0354 /* AppDelegate.swift */,
 				83F446F22B891A53008E0354 /* SceneDelegate.swift */,
-				83F447042B891CCA008E0354 /* ServicesList */,
 				83F446F92B891A54008E0354 /* Assets.xcassets */,
 				83F446FB2B891A54008E0354 /* LaunchScreen.storyboard */,
 				83F446FE2B891A54008E0354 /* Info.plist */,
