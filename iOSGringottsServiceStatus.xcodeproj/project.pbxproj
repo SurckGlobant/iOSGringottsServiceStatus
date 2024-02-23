@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12698B1D2B8931D30087B9C0 /* ServiceEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B1C2B8931D30087B9C0 /* ServiceEnum.swift */; };
+		12698B1F2B8932200087B9C0 /* ServiceStatusConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B1E2B8932200087B9C0 /* ServiceStatusConstants.swift */; };
+		12698B212B8934C80087B9C0 /* ServiceStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B202B8934C80087B9C0 /* ServiceStatus.swift */; };
+		12698B232B8934F80087B9C0 /* ServiceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B222B8934F80087B9C0 /* ServiceRepository.swift */; };
+		12698B252B8935430087B9C0 /* GringottsServiceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B242B8935430087B9C0 /* GringottsServiceRepository.swift */; };
+		12698B272B89365D0087B9C0 /* URLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B262B89365D0087B9C0 /* URLSessionManager.swift */; };
+		12698B292B89366C0087B9C0 /* NetworkSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B282B89366C0087B9C0 /* NetworkSessionManager.swift */; };
+		12698B2B2B8938E90087B9C0 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B2A2B8938E90087B9C0 /* NetworkError.swift */; };
+		12698B2F2B8943FB0087B9C0 /* ServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B2E2B8943FB0087B9C0 /* ServiceViewModel.swift */; };
+		12698B322B8944450087B9C0 /* ServiceViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B312B8944450087B9C0 /* ServiceViewModelProtocol.swift */; };
+		12698B352B8945B80087B9C0 /* ServiceStatusFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12698B342B8945B80087B9C0 /* ServiceStatusFactory.swift */; };
 		83F446F12B891A53008E0354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F446F02B891A53008E0354 /* AppDelegate.swift */; };
 		83F446F32B891A53008E0354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F446F22B891A53008E0354 /* SceneDelegate.swift */; };
 		83F446F52B891A53008E0354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F446F42B891A53008E0354 /* ViewController.swift */; };
@@ -17,6 +28,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12698B1C2B8931D30087B9C0 /* ServiceEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceEnum.swift; sourceTree = "<group>"; };
+		12698B1E2B8932200087B9C0 /* ServiceStatusConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatusConstants.swift; sourceTree = "<group>"; };
+		12698B202B8934C80087B9C0 /* ServiceStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatus.swift; sourceTree = "<group>"; };
+		12698B222B8934F80087B9C0 /* ServiceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRepository.swift; sourceTree = "<group>"; };
+		12698B242B8935430087B9C0 /* GringottsServiceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GringottsServiceRepository.swift; sourceTree = "<group>"; };
+		12698B262B89365D0087B9C0 /* URLSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionManager.swift; sourceTree = "<group>"; };
+		12698B282B89366C0087B9C0 /* NetworkSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionManager.swift; sourceTree = "<group>"; };
+		12698B2A2B8938E90087B9C0 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		12698B2E2B8943FB0087B9C0 /* ServiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewModel.swift; sourceTree = "<group>"; };
+		12698B312B8944450087B9C0 /* ServiceViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewModelProtocol.swift; sourceTree = "<group>"; };
+		12698B342B8945B80087B9C0 /* ServiceStatusFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatusFactory.swift; sourceTree = "<group>"; };
 		204EA6431782640CE89F0E17 /* Pods-iOSGringottsServiceStatus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSGringottsServiceStatus.release.xcconfig"; path = "Target Support Files/Pods-iOSGringottsServiceStatus/Pods-iOSGringottsServiceStatus.release.xcconfig"; sourceTree = "<group>"; };
 		6C1F0BBAB21640C60EE90159 /* Pods-iOSGringottsServiceStatus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSGringottsServiceStatus.debug.xcconfig"; path = "Target Support Files/Pods-iOSGringottsServiceStatus/Pods-iOSGringottsServiceStatus.debug.xcconfig"; sourceTree = "<group>"; };
 		83F446ED2B891A53008E0354 /* iOSGringottsServiceStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGringottsServiceStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +64,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12698B1A2B89319F0087B9C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12698B332B8945940087B9C0 /* Factory */,
+				12698B302B89442B0087B9C0 /* Domain */,
+				12698B2C2B893FF30087B9C0 /* Resources */,
+				12698B2D2B893FFE0087B9C0 /* Presentation */,
+				12698B1B2B8931B60087B9C0 /* Repositories */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12698B1B2B8931B60087B9C0 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				12698B1C2B8931D30087B9C0 /* ServiceEnum.swift */,
+				12698B202B8934C80087B9C0 /* ServiceStatus.swift */,
+				12698B222B8934F80087B9C0 /* ServiceRepository.swift */,
+				12698B242B8935430087B9C0 /* GringottsServiceRepository.swift */,
+				12698B282B89366C0087B9C0 /* NetworkSessionManager.swift */,
+				12698B262B89365D0087B9C0 /* URLSessionManager.swift */,
+				12698B2A2B8938E90087B9C0 /* NetworkError.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		12698B2C2B893FF30087B9C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12698B1E2B8932200087B9C0 /* ServiceStatusConstants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		12698B2D2B893FFE0087B9C0 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				83F446F42B891A53008E0354 /* ViewController.swift */,
+				12698B2E2B8943FB0087B9C0 /* ServiceViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		12698B302B89442B0087B9C0 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				12698B312B8944450087B9C0 /* ServiceViewModelProtocol.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		12698B332B8945940087B9C0 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				12698B342B8945B80087B9C0 /* ServiceStatusFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 		6ABEC4C8E6E4A73866550907 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,9 +161,9 @@
 		83F446EF2B891A53008E0354 /* iOSGringottsServiceStatus */ = {
 			isa = PBXGroup;
 			children = (
+				12698B1A2B89319F0087B9C0 /* Models */,
 				83F446F02B891A53008E0354 /* AppDelegate.swift */,
 				83F446F22B891A53008E0354 /* SceneDelegate.swift */,
-				83F446F42B891A53008E0354 /* ViewController.swift */,
 				83F446F62B891A53008E0354 /* Main.storyboard */,
 				83F446F92B891A54008E0354 /* Assets.xcassets */,
 				83F446FB2B891A54008E0354 /* LaunchScreen.storyboard */,
@@ -206,8 +287,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12698B272B89365D0087B9C0 /* URLSessionManager.swift in Sources */,
+				12698B232B8934F80087B9C0 /* ServiceRepository.swift in Sources */,
+				12698B1F2B8932200087B9C0 /* ServiceStatusConstants.swift in Sources */,
+				12698B212B8934C80087B9C0 /* ServiceStatus.swift in Sources */,
+				12698B322B8944450087B9C0 /* ServiceViewModelProtocol.swift in Sources */,
 				83F446F52B891A53008E0354 /* ViewController.swift in Sources */,
 				83F446F12B891A53008E0354 /* AppDelegate.swift in Sources */,
+				12698B1D2B8931D30087B9C0 /* ServiceEnum.swift in Sources */,
+				12698B292B89366C0087B9C0 /* NetworkSessionManager.swift in Sources */,
+				12698B252B8935430087B9C0 /* GringottsServiceRepository.swift in Sources */,
+				12698B2B2B8938E90087B9C0 /* NetworkError.swift in Sources */,
+				12698B2F2B8943FB0087B9C0 /* ServiceViewModel.swift in Sources */,
+				12698B352B8945B80087B9C0 /* ServiceStatusFactory.swift in Sources */,
 				83F446F32B891A53008E0354 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
