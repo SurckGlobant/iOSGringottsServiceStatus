@@ -13,9 +13,12 @@
 		83F446F82B891A53008E0354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F446F62B891A53008E0354 /* Main.storyboard */; };
 		83F446FA2B891A54008E0354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F446F92B891A54008E0354 /* Assets.xcassets */; };
 		83F446FD2B891A54008E0354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F446FB2B891A54008E0354 /* LaunchScreen.storyboard */; };
+		B1A95476604F2AA9BB4AED31 /* Pods_iOSGringottsServiceStatus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AADBF678728D37DB6BE0EE0 /* Pods_iOSGringottsServiceStatus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		204EA6431782640CE89F0E17 /* Pods-iOSGringottsServiceStatus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSGringottsServiceStatus.release.xcconfig"; path = "Target Support Files/Pods-iOSGringottsServiceStatus/Pods-iOSGringottsServiceStatus.release.xcconfig"; sourceTree = "<group>"; };
+		6C1F0BBAB21640C60EE90159 /* Pods-iOSGringottsServiceStatus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSGringottsServiceStatus.debug.xcconfig"; path = "Target Support Files/Pods-iOSGringottsServiceStatus/Pods-iOSGringottsServiceStatus.debug.xcconfig"; sourceTree = "<group>"; };
 		83F446ED2B891A53008E0354 /* iOSGringottsServiceStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGringottsServiceStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F446F02B891A53008E0354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83F446F22B891A53008E0354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		83F446F92B891A54008E0354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F446FC2B891A54008E0354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83F446FE2B891A54008E0354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AADBF678728D37DB6BE0EE0 /* Pods_iOSGringottsServiceStatus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSGringottsServiceStatus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A95476604F2AA9BB4AED31 /* Pods_iOSGringottsServiceStatus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6ABEC4C8E6E4A73866550907 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C1F0BBAB21640C60EE90159 /* Pods-iOSGringottsServiceStatus.debug.xcconfig */,
+				204EA6431782640CE89F0E17 /* Pods-iOSGringottsServiceStatus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		79B4AD6F3A01F92A842CA174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AADBF678728D37DB6BE0EE0 /* Pods_iOSGringottsServiceStatus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		83F446E42B891A53008E0354 = {
 			isa = PBXGroup;
 			children = (
 				83F446EF2B891A53008E0354 /* iOSGringottsServiceStatus */,
 				83F446EE2B891A53008E0354 /* Products */,
+				6ABEC4C8E6E4A73866550907 /* Pods */,
+				79B4AD6F3A01F92A842CA174 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83F447012B891A54008E0354 /* Build configuration list for PBXNativeTarget "iOSGringottsServiceStatus" */;
 			buildPhases = (
+				82A88716597EA1B56022BBCC /* [CP] Check Pods Manifest.lock */,
 				83F446E92B891A53008E0354 /* Sources */,
 				83F446EA2B891A53008E0354 /* Frameworks */,
 				83F446EB2B891A53008E0354 /* Resources */,
+				FE33F1C4A4ECDDF63CBFDDD9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82A88716597EA1B56022BBCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSGringottsServiceStatus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE33F1C4A4ECDDF63CBFDDD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSGringottsServiceStatus/Pods-iOSGringottsServiceStatus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSGringottsServiceStatus/Pods-iOSGringottsServiceStatus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSGringottsServiceStatus/Pods-iOSGringottsServiceStatus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		83F446E92B891A53008E0354 /* Sources */ = {
@@ -287,11 +355,13 @@
 		};
 		83F447022B891A54008E0354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1F0BBAB21640C60EE90159 /* Pods-iOSGringottsServiceStatus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOSGringottsServiceStatus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,11 +384,13 @@
 		};
 		83F447032B891A54008E0354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204EA6431782640CE89F0E17 /* Pods-iOSGringottsServiceStatus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOSGringottsServiceStatus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
