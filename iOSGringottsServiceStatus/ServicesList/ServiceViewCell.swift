@@ -82,7 +82,7 @@ final class ServiceViewCell: UITableViewCell {
     }
     
     func configCell(service: ServiceStatus) {
-        nameLabel.text = service.route
+        nameLabel.text = service.name
         
         switch service.httpCode {
         case 100...200:
